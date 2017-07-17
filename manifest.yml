@@ -1,0 +1,8 @@
+---
+applications:
+- name: bluemix-hubot
+  memory: 512M
+  command: bin/hubot
+  instances: 1
+  services:
+    - hubot-redis
